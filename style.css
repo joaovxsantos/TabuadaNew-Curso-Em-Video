@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+
+  outline: none;
+}
+
+body {
+  background: #3e82cd;
+}
+
+header,
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1::selection {
+  background-color: rgb(255, 166, 0);
+  color: black;
+}
+
+section {
+  margin: auto;
+  background-color: white;
+  width: 75vh;
+  height: 44vh;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+
+.first {
+  display: flex;
+}
+
+input {
+  margin-left: 5px;
+  padding: 1pt;
+}
+
+p {
+  font-size: 19px;
+}
+
+#p2 {
+  margin-top: 1rem;
+  overflow-y: scroll;
+  width: 32vh;
+  height: 36vh;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+a:visited {
+  color: white;
+}
