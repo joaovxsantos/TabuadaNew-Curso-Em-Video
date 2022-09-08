@@ -12,7 +12,7 @@ function account() {
     } else {
         resultado.innerText = ""
         for (i = 0; i <= 10; i++) {
-            resultado.innerText += `${valor} x ${i} = ` + valor * i + "\n"
+            resultado.innerText += `${valor} x ${i} = ${valor * i}\n`
         }
     }
 }
